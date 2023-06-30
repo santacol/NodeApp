@@ -4,7 +4,7 @@ const express = require('express');
 
 const shopController = require('../controllers/shop');
 const isAuth = require('../middleware/is-auth');
-const { isatty } = require('tty');
+//const { isatty } = require('tty');
 
 const router = express.Router();
 
